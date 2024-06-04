@@ -1,0 +1,23 @@
+[
+  {
+    "nomeCliente": "Maria",
+    "nomeFilme": "Vingadores: Ultimato Legendado",
+    "nomeProduto": "Pipoca",
+    "tipoBalcao": "Balcao 2",
+    "valorCompra": 108.25
+  },
+  {
+    "nomeCliente": "Mario",
+    "nomeFilme": "O Rei Leão",
+    "nomeProduto": "Pipoca",
+    "tipoBalcao": "Balcao 2",
+    "valorCompra": 22.0
+  },
+  {
+    "nomeCliente": "Laura",
+    "nomeFilme": "Interestelar",
+    "nomeProduto": "Pipoca",
+    "tipoBalcao": "Balcao 1",
+    "valorCompra": 27.0
+  }
+]

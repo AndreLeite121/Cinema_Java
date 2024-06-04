@@ -1,0 +1,88 @@
+[
+  {
+    "produto": {
+      "quantidade": 10,
+      "ID": 0,
+      "nome": "Pipoca",
+      "validade": "10/05/2024",
+      "valor": 5.75
+    },
+    "quantidade": 10
+  },
+  {
+    "produto": {
+      "quantidade": 5,
+      "ID": 1,
+      "nome": "Chocolate",
+      "validade": "15/06/2024",
+      "valor": 4.75
+    },
+    "quantidade": 5
+  },
+  {
+    "produto": {
+      "quantidade": 20,
+      "ID": 2,
+      "nome": "Refrigerante",
+      "validade": "20/07/2025",
+      "valor": 6.0
+    },
+    "quantidade": 20
+  },
+  {
+    "produto": {
+      "assentos": 100,
+      "duracao": 120,
+      "sala": 1,
+      "genero": "Ação",
+      "hora": "16:00",
+      "ID": 0,
+      "nome": "Vingadores: Ultimato",
+      "validade": "22/04/2024",
+      "valor": 30.5
+    },
+    "quantidade": 1
+  },
+  {
+    "produto": {
+      "assentos": 100,
+      "duracao": 120,
+      "sala": 1,
+      "genero": "Ação",
+      "hora": "22:00",
+      "ID": 1,
+      "nome": "Vingadores: Ultimato Legendado",
+      "validade": "22/04/2024",
+      "valor": 20.5
+    },
+    "quantidade": 1
+  },
+  {
+    "produto": {
+      "assentos": 80,
+      "duracao": 150,
+      "sala": 2,
+      "genero": "Animação",
+      "hora": "16:00",
+      "ID": 2,
+      "nome": "O Rei Leão",
+      "validade": "22/04/2024",
+      "valor": 10.5
+    },
+    "quantidade": 1
+  },
+  {
+    "produto": {
+      "assentos": 120,
+      "duracao": 110,
+      "sala": 1,
+      "genero": "Ficção Cientifica",
+      "hora": "14:00",
+      "ID": 3,
+      "nome": "Interestelar",
+      "validade": "22/04/2024",
+      "valor": 15.5
+    },
+    "quantidade": 1
+  }
+]

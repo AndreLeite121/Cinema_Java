@@ -1,0 +1,32 @@
+[
+  {
+    "sobrenome": "Souza",
+    "endereco": "Avenida Principal, 456",
+    "telefone": "(11) 12345-6789",
+    "PrefFilmes": "Comédia",
+    "PrefProduto": "Chocolate",
+    "compras": 108.25,
+    "nome": "Maria",
+    "CPF": "111.222.333-44"
+  },
+  {
+    "sobrenome": "Oliveira",
+    "endereco": "Rua Principal, 123",
+    "telefone": "(11) 98765-4321",
+    "PrefFilmes": "Ficção Científica",
+    "PrefProduto": "Bala",
+    "compras": 22.0,
+    "nome": "Mario",
+    "CPF": "222.333.444-55"
+  },
+  {
+    "sobrenome": "Silveira",
+    "endereco": "Rua Principal, 144",
+    "telefone": "(21) 9864-5502",
+    "PrefFilmes": "Suspense",
+    "PrefProduto": "Pepsi",
+    "compras": 27.0,
+    "nome": "Laura",
+    "CPF": "333.444.555-66"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "senha": "senha000",
+    "cargo": "Cargo",
+    "nome": "NovoFunc",
+    "CPF": "func456"
+  },
+  {
+    "senha": "senha000",
+    "cargo": "Cargo",
+    "nome": "NovoFunc1",
+    "CPF": "func001"
+  },
+  {
+    "senha": "senha000",
+    "cargo": "Cargo",
+    "nome": "NovoFunc2",
+    "CPF": "func002"
+  },
+  {
+    "senha": "senha000",
+    "cargo": "Cargo",
+    "nome": "NovoFunc3",
+    "CPF": "func003"
+  }
+]

@@ -50,7 +50,7 @@ public class TP_Cinema {
          * Presente nas linhas 21, 22 e 23 da classe Administrador
          * Trecho do código:
          *     public Administrador(String nome, String senha, String CPF, Cinema cadastro){
-        super(nome, CPF, senha, "Administrador", cadastro);
+                super(nome, CPF, senha, "Administrador", cadastro);
          *     }.
          *
          */ /**
@@ -269,16 +269,12 @@ public class TP_Cinema {
                     gerenciamentoVendas.compararVendas("Balcao 1", "Balcao 2");
                     
                     System.out.println();
-                    System.out.println();
-                    System.out.println();
+
                     System.out.println("*********************************");
                     gerenciamentoVendas.BalancoMensal();
                     System.out.println("*********************************");
-                    System.out.println();
-                    System.out.println();
-                    System.out.println();
-                    
-                    
+                 
+
                     /**
                      * Questão 9
                      * Os produtos, filmes e os clientes devem ser salvos de forma dinâmica no sistema
@@ -408,7 +404,8 @@ public class TP_Cinema {
                      * Gerar Javadoc
                      * O presente código está devidamente comentado de acordo com o Javadoc
                      */
-                    System.out.println();
+                    
+                    
                     /**
                      * Questão 15 da entrega final do projeto
                      * Intanciar um iterator para a arraylist de clientes
@@ -419,7 +416,7 @@ public class TP_Cinema {
                     // Cria um Iterator para percorrer a lista de clientes
                     Iterator<Cliente> iterator = listaClientes.iterator();
                     
-                    // Itera sobre a lista usando o Iterator e imprime as informações de cada cliente
+                    // Percorre a lista usando o Iterator e imprime as informações de cada cliente
                     System.out.println("Detalhes dos clientes:");
                     while (iterator.hasNext()) {
                         Cliente cliente = iterator.next();
@@ -441,6 +438,8 @@ public class TP_Cinema {
                     for (Cliente cliente : listaClientes) {
                         System.out.println(cliente); // Utiliza o método toString() para imprimir os detalhes do cliente
                     }
+                    
+                    
                     /**
                      * Questão 16
                      * Utilizar e apresentar o método sort da classe collections passando o comparator criado para ordenar a lista de clientes

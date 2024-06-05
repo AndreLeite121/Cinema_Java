@@ -16,7 +16,7 @@ import ufvjm.POO.cinema.produtos.Alimento;
  * @author andreleite
  */
 public class JsonAlimentos {
-    public static final String Alimentos = "/Users/andreleite/Downloads/POO_Cinema_POO/src/main/java/ufvjm/POO/cinema/Json/Alimento.json";
+    public static final String Alimentos = "/Users/andreleite/Downloads/POO_Cinema_POO 3/src/main/java/ufvjm/POO/cinema/Json/Alimento.json";
 
     public JsonAlimentos() {}
 

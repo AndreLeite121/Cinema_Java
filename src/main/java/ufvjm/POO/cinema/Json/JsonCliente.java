@@ -16,7 +16,7 @@ import java.util.List;
 import ufvjm.POO.cinema.Pessoas.Cliente;
 
 public class JsonCliente {
-public static final String Cliente = "/Users/andreleite/Downloads/POO_Cinema_POO/src/main/java/ufvjm/POO/cinema/Json/Cliente.json";
+public static final String Cliente = "/Users/andreleite/Downloads/POO_Cinema_POO 3/src/main/java/ufvjm/POO/cinema/Json/Cliente.json";
 
     private JsonCliente () {}
     

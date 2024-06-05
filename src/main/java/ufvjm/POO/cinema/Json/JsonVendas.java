@@ -16,7 +16,7 @@ import ufvjm.POO.cinema.produtos.Venda;
  * @author andreleite
  */
 public class JsonVendas {
-    public static final String Vendas = "/Users/andreleite/Downloads/POO_Cinema_POO/src/main/java/ufvjm/POO/cinema/Json/Vendas.json";
+    public static final String Vendas = "/Users/andreleite/Downloads/POO_Cinema_POO 3/src/main/java/ufvjm/POO/cinema/Json/Vendas.json";
 
     public JsonVendas() {}
 

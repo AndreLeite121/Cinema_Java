@@ -17,7 +17,7 @@ import ufvjm.POO.cinema.Pessoas.Colaboradores;
  * @author andreleite
  */
 public class JsonColaboradores {
-    public static final String Colaboradores = "/Users/andreleite/Downloads/POO_Cinema_POO/src/main/java/ufvjm/POO/cinema/Json/Colaboradores.json";
+    public static final String Colaboradores = "/Users/andreleite/Downloads/POO_Cinema_POO 3/src/main/java/ufvjm/POO/cinema/Json/Colaboradores.json";
 
     public JsonColaboradores() {}
 

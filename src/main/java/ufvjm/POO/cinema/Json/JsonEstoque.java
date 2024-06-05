@@ -16,7 +16,7 @@ import ufvjm.POO.cinema.produtos.Estoque;
  * @author andreleite
  */
 public class JsonEstoque {
-    public static final String Estoque = "/Users/andreleite/Downloads/POO_Cinema_POO/src/main/java/ufvjm/POO/cinema/Json/Estoque.json";
+    public static final String Estoque = "/Users/andreleite/Downloads/POO_Cinema_POO 3/src/main/java/ufvjm/POO/cinema/Json/Estoque.json";
 
     public JsonEstoque() {}
 

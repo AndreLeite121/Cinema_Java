@@ -42,13 +42,21 @@ public class sistemaControleClientes {
     }
     
     public Cliente find(Comparator<Cliente> comparator) {
+        // Ordena a lista 'clientes' usando o comparador fornecido.
         Collections.sort(clientes, comparator);
+    
+        // Cria um iterador para a lista 'clientes'.
         Iterator<Cliente> iterator = clientes.iterator();
+    
+        // Verifica se há pelo menos um elemento na lista.
         if (iterator.hasNext()) {
+        // Retorna o primeiro elemento da lista, que agora está ordenada.
             return iterator.next();
         }
+    
+        // Retorna null se a lista estiver vazia.
         return null;
-        }
+    }
     
     public Cliente pesquisarClientePorCPF(String cpf) {
         Iterator<Cliente> iterador = clientes.iterator();

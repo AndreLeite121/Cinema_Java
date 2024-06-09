@@ -79,7 +79,8 @@ public class GerenciamentoVendas {
         double vendasFilme = calcularValorTotal(quantidadeAssentos, valorFilme);
         double vendaAliementos = calcularValorTotal(quantidadeAlimentos, valorAlimento);
         double valorTotal = (quantidadeAssentos * valorFilme) + (quantidadeAlimentos * valorAlimento);
-        
+        int assentosAtuais = filme.getAssentos() - quantidadeAssentos;
+        int quantidadeAtuais = alimento.getQuantidade() - quantidadeAlimentos;
         
         cliente.adicionarCompras(valorTotal);
         
@@ -114,7 +115,10 @@ public class GerenciamentoVendas {
             System.out.println();
             
         Venda venda = new Venda(cliente.getNome(), filme.getNome(), alimento.getNome(), tipoBalcao, valorTotal);
-        this.vendas.add(venda);       
+        this.vendas.add(venda);
+        
+        filme.setAssentos(assentosAtuais);
+        alimento.setQuantidade(quantidadeAtuais);
     }
     
         

@@ -234,7 +234,7 @@ public class TP_Cinema {
                     estoque.comprarFilme(ReiLeao);
                     estoque.comprarFilme(Interestelar);
                     
-                    System.out.println(cadastro.produtosCinema());
+                    
                     JsonEstoque.salvarEstoque(cadastro.produtosCinema());
                     
                     
@@ -472,10 +472,16 @@ public class TP_Cinema {
                      * Método find
                      * Testando o método find para encontrar o primeiro cliente por nome
                      */
-                    Cliente primeiroClientePorNome = ControleClientes.find(comparatorPorNome);
-                    if (primeiroClientePorNome != null) {
+                    // Cria uma variável 'primeiroClientePorNome' e atribui a ela o resultado do método 'find',
+                    // passando um comparador (provavelmente um comparador que compara clientes por nome).
+                        Cliente primeiroClientePorNome = ControleClientes.find(comparatorPorNome);
+
+                    // Verifica se o resultado não é nulo (ou seja, se foi encontrado pelo menos um cliente).
+                        if (primeiroClientePorNome != null) {
+                    // Imprime uma mensagem indicando que o primeiro cliente foi encontrado, incluindo seus detalhes.
                         System.out.println("Primeiro cliente por nome encontrado: " + primeiroClientePorNome);
                     } else {
+                        // Imprime uma mensagem indicando que nenhum cliente foi encontrado.
                         System.out.println("Nenhum cliente encontrado por nome.");
                     }
                     

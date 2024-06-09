@@ -1,6 +1,6 @@
 [
   {
-    "assentos": 80,
+    "assentos": 79,
     "duracao": 150,
     "sala": 2,
     "genero": "Animação",
@@ -11,7 +11,7 @@
     "valor": 10.5
   },
   {
-    "assentos": 100,
+    "assentos": 95,
     "duracao": 120,
     "sala": 1,
     "genero": "Ação",
@@ -33,7 +33,7 @@
     "valor": 30.5
   },
   {
-    "assentos": 120,
+    "assentos": 119,
     "duracao": 110,
     "sala": 1,
     "genero": "Ficção Cientifica",

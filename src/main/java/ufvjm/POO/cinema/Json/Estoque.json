@@ -1,7 +1,7 @@
 [
   {
     "produto": {
-      "quantidade": 10,
+      "quantidade": 5,
       "ID": 0,
       "nome": "Pipoca",
       "validade": "10/05/2024",
@@ -45,7 +45,7 @@
   },
   {
     "produto": {
-      "assentos": 100,
+      "assentos": 95,
       "duracao": 120,
       "sala": 1,
       "genero": "Ação",
@@ -59,7 +59,7 @@
   },
   {
     "produto": {
-      "assentos": 80,
+      "assentos": 79,
       "duracao": 150,
       "sala": 2,
       "genero": "Animação",
@@ -73,7 +73,7 @@
   },
   {
     "produto": {
-      "assentos": 120,
+      "assentos": 119,
       "duracao": 110,
       "sala": 1,
       "genero": "Ficção Cientifica",
